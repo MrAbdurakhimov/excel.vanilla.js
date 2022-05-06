@@ -1,0 +1,41 @@
+{
+  "name": "excel-vanilla-js",
+  "version": "1.0.0",
+  "description": "Pure Advanced JavaScript Application",
+  "main": "index.js",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAbdurakhimov/excel.vanilla.js.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Excel"
+  ],
+  "author": "Mukhammadyusuf Abdurakhimov <icoderx@yandex.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAbdurakhimov/excel.vanilla.js/issues"
+  },
+  "homepage": "https://github.com/MrAbdurakhimov/excel.vanilla.js#readme",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
